@@ -1,4 +1,3 @@
-import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { navigation } from "@/constants";
 import Button from "@/components/Button";
 import MenuSvg from "@/assets/svg/MenuSvg";

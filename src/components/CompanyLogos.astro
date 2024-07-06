@@ -1,0 +1,19 @@
+---
+import { companyLogos } from "@/constants/imgs";
+const { className } = Astro.props;
+---
+
+<div class={className}>
+  <h5 class="tagline mb-6 text-center text-n-1/50">
+    HELPING PEOPLE CREATE BEAUTIFUL CONTENT AT
+  </h5>
+  <ul class="flex">
+    {
+      companyLogos.map((logo) => (
+        <li class="flex items-center justify-center flex-1 h-[8.5rem] ">
+          <img src={logo.src} alt={logo.alt} width={134} height={28} />
+        </li>
+      ))
+    }
+  </ul>
+</div>
