@@ -1,7 +1,8 @@
 ---
-const { className, title } = Astro.props;
+const { className, title, text } = Astro.props;
 ---
 
 <div class={`${className} max-w-[50rem] mx-auto mb-12 lg:mb-20 text-center `}>
   {title && <h2 class="h2">{title}</h2>}
+  {text && <p class="body-2 mt-4 text-n-4">{text}</p>}
 </div>

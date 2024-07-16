@@ -162,3 +162,32 @@ export const collabApps = [
 
 export const curve1 = "/collaboration/curve-1.svg";
 export const curve2 = "/collaboration/curve-2.svg";
+
+export const service1 = "/services/service-1.png";
+export const service2 = "/services/service-2.png";
+export const service3 = "/services/service-3.png";
+export const check = "/check.svg";
+
+export const brainwaveServices = [
+  "Photo generating",
+  "Photo enhance",
+  "Seamless Integration",
+];
+
+const recording03 = "/recording-03.svg";
+const recording01 = "/recording-01.svg";
+const disc02 = "/disc-02.svg";
+const chromecast = "/chrome-cast.svg";
+const sliders04 = "/sliders-04.svg";
+
+export const brainwaveServicesIcons = [
+  recording03,
+  recording01,
+  disc02,
+  chromecast,
+  sliders04,
+];
+
+export const brainwaveWhiteSymbol = "/brainwave-symbol-white.svg";
+export const gradient = "/gradient.png";
+export const play = "/play.svg";
