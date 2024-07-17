@@ -1,0 +1,14 @@
+---
+import LeftBracket from "@/components/svg/LeftBracket";
+import RightBracket from "@/components/svg/RightBracket";
+
+const { className } = Astro.props;
+---
+
+<div class={`tagline flex items-center ${className || ""}`}>
+  <LeftBracket />
+  <div class="mx-3 text-n-3">
+    <slot />
+  </div>
+  <RightBracket />
+</div>
