@@ -270,3 +270,36 @@ export const roadmap = [
     imageUrl: "/roadmap/image-4.png",
   },
 ];
+
+export const socials = [
+  {
+    id: "0",
+    title: "Discord",
+    iconUrl: "/socials/discord.svg",
+    url: "#",
+  },
+  {
+    id: "1",
+    title: "Twitter",
+    iconUrl: "/socials/twitter.svg",
+    url: "#",
+  },
+  {
+    id: "2",
+    title: "Instagram",
+    iconUrl: "/socials/instagram.svg",
+    url: "#",
+  },
+  {
+    id: "3",
+    title: "Telegram",
+    iconUrl: "/socials/telegram.svg",
+    url: "#",
+  },
+  {
+    id: "4",
+    title: "Facebook",
+    iconUrl: "/socials/facebook.svg",
+    url: "#",
+  },
+];
